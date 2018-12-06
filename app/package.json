@@ -1,0 +1,12 @@
+{
+  "name": "M8T2",
+  "version": "0.1.0",
+  "description": "M8T2 application built with Electron",
+  "author": {
+    "name": "Jesus Macias Portela",
+    "email": ""
+  },
+  "license": "MIT",
+  "main": "javascripts/main/index.js",
+  "dependencies": {}
+}

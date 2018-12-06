@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="stylesheets/application.css" />
+  <script src="javascripts/renderer/application.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="view1" class="container">
+    <h1 class="title"></h1>
+    <div id="qr">
+      <img id="qrcode" width="200" height="200"/>
+    </div>
+    <div>
+      <small id="instructions"></small>
+    </div>
+    <div>
+      <small id="key"></small>
+    </div>
+    <div class="validation">
+      <input id="gotoView2" type="button" class="button" value="Validate TOPT code" />
+    </div>
+  </div>
+  <div id="view2" class="container" style="display: none;">
+    <h1 class="title"></h1>
+    <label for="lname">Enter 6 digits TOTP Code</label>
+    <div class="validation">
+        <input id="code" type="number" max="999999" placeholder="Code..." >
+        <div id="message" style="display: none;">
+          <small> Check code length</small>
+        </div>
+        <img id="okImg" class="result" src="images/ok.png" style="display: none;" />
+        <img id="nokImg" class="result" src="images/nok.png" style="display: none;" />
+    </div>
+    <div>
+        <input id="retryBtn" type="button" class="button button_green" value="Retry" style="display: none"/>
+    </div>
+    <div>
+        <input id="validateBtn" type="button" class="button button_green" value="Validate"/>
+    </div>
+    <div>
+      <input id="goHomeBtn" type="button" class="button" value="Return to Home" />
+    </div>
+  </div>
+</body>
+</html>
