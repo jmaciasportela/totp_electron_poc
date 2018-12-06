@@ -1,15 +1,20 @@
 {
   "name": "M8T2",
   "version": "0.1.0",
-  "description": "Desktop application build with Electron",
-  "repository": "",
+  "description": "Practica 2 Módulo 8",
+  "repository": "https://github.com/jmaciasportela/totp_electron_poc",
+  "author": {
+    "name": "Jesus Macias Portela",
+    "email": "jesus.macias.portela@gmail.com"
+  },
   "scripts": {
     "postinstall": "electron-builder install-app-deps"
   },
   "devDependencies": {
     "bozon": "0.8.11",
-    "electron-builder": "20.36.2",
-    "electron": "3.0.9",
+    "electron": "3.0.10",
+    "electron-builder": "20.38.2",
+    "electron-packager": "^13.0.0",
     "gulp": "^3.9.1",
     "mocha": "^5.2.0",
     "spectron": "^5.0.0",
@@ -23,8 +28,8 @@
     }
   },
   "dependencies": {
-    "otplib": "10.0.1",
     "qrcode": "1.3.2",
+    "otplib": "10.0.1",
     "speakeasy": "2.0.0"
   }
 }
