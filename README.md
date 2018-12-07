@@ -44,7 +44,7 @@ Open the app and scan QR code with your favourite OTP App:
 - https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=es
 - https://play.google.com/store/apps/details?id=com.elevenpaths.android.latch&hl=es
 
-![M8T2](https://user-images.githubusercontent.com/1454351/49610526-1e674200-f99f-11e8-9596-eaa70e1fcf34.jpg "M8T2")
+![M8T2](https://user-images.githubusercontent.com/1454351/49633727-be05ee00-f9fa-11e8-9336-95f85ddb262a.jpg "M8T2")
 
 Click on "Validate TOPT Code" and enter code displayed on your App
 
